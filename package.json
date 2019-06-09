@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel build src/index.html",
-    "build": "parcel buils src/index.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "start": "npm build && live-server dist"
   },
   "keywords": [],
@@ -12,10 +12,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "live-server": "^1.2.1",
-    "parcel-bundler": "^1.10.3",
+    "parcel-bundler": "^1.12.3",
     "react": "^16.8.6",
     "react-animate-mount": "^1.0.1",
     "react-dom": "^16.8.6"
